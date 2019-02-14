@@ -10,8 +10,6 @@ variable "ami" { description = "Amazon Linux AMI" default = "ami-0664a710233d7c1
 
 # Define AWS as our provider
  provider "aws" {
-  access_key = "AKIAI7PUCVR7WTPG2SBA"
-  secret_key = "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"
   region = "${var.aws_region}" }
 
 # Define our VPC 
